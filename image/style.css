@@ -40,7 +40,7 @@ display: flex;
     font-size: 16px;
     text-transform: capitalize;
     padding: 10px 20px;
-    font-weight: 400;
+    font-weight: 700;
     transition: all .42s ease;
 }
 
@@ -53,6 +53,8 @@ display: flex;
   align-items: center;
 }
 
+
+
 .nav-icon i {
   margin-right: 20px;
   color: #2c2c2c;
@@ -61,7 +63,9 @@ display: flex;
   transition: all .42s ease;
 }
 
-
+.menu-icons a i:hover {
+  color: #EE1C47;
+}
 
 .nav-icon i:hover {
   transform: scale(1.1);
@@ -179,7 +183,7 @@ header.sticky {
 
 .products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   gap: 2rem;
 }
 
@@ -246,7 +250,12 @@ header.sticky {
 .reviews{
   text-align: center;
 }
-
+.client-reviews .review-image img{
+  height: 150px;
+  width: 150px;
+  border: 2px;
+  border-radius: 50%;
+}
 .reviews h3 {
   color: #111;
   font-size: 25px;
@@ -295,8 +304,8 @@ header.sticky {
 
 .update-cart {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, auto));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 2rem;
 }
 
 
@@ -325,6 +334,12 @@ header.sticky {
   color: #151515;
   font-size: 14px;
   font-weight: 500;
+}
+
+.cart img {
+  height: 60%;
+  width: 100%;
+
 }
 
 .contact {
