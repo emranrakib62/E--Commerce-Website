@@ -7,8 +7,6 @@ font-family: 'jost',sans-serif;
 list-style: none;
 text-decoration: none;
 }
-
-
 header{
     position: fixed;
     width: 100%;
@@ -20,21 +18,16 @@ header{
     justify-content: space-between;
     padding: 20px 10%;
 }
-
 .logo img{
     max-width: 120px;
     height: auto;
 }
-
 .navmenu{
 display: flex;
 }
-
-
 .search, .user , .cart {
   font-size: 30px;
 }
-
 .navmenu a{
     color: #2c2c2c;
     font-size: 16px;
@@ -43,22 +36,18 @@ display: flex;
     font-weight: 700;
     transition: all .42s ease;
 }
-
 .navmenu a:hover{
     color: #EE1C47;
 }
-
 .nav-icon {
   display: flex;
   align-items: center;
 }
-
 .header-navbar {
     background-color: white;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     min-height: 120px;
 }
-
 .nav-icon i {
   margin-right: 20px;
   color: #2c2c2c;
@@ -66,16 +55,13 @@ display: flex;
   font-weight: 400;
   transition: all .42s ease;
 }
-
 .menu-icons a i:hover {
   color: #EE1C47;
 }
-
 .nav-icon i:hover {
   transform: scale(1.1);
   color: #EE1C47;
 }
-
 .menu-icons {
   display: flex;
   justify-content: center;
@@ -84,19 +70,15 @@ display: flex;
   border: 2px;
   gap: 12px;
 }
-
-
 #menu-icon{
   font-size: 35px;
   color: #2c2c2c;
   z-index: 10001;
   cursor: pointer;
 }
-
 section {
   padding: 5% 10%;
 }
-
 .main-home {
   width: 100%;
   height: 100vh;
@@ -108,14 +90,12 @@ section {
   align-items: center;
   margin-top: 120px;
 }
-
 .main-text h5 {
   color: #EE1C47;
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 500;
 }
-
 .main-text h1 {
   color: #000;
   font-size: 65px;
@@ -130,7 +110,6 @@ section {
   font-style: italic;
   margin-bottom: 20px;
 }
-
 .main-btn {
   display: inline-block;
   color: #111;
@@ -141,22 +120,18 @@ section {
   padding: 12px 25px;
   transition: all .42s ease;
 }
-
 .main-btn:hover{
   background-color: #000;
   color: #fff;
 }
-
 .main-btn i{
   vertical-align: middle;
 }
-
 .down-arrow {
   position: absolute;
   top: 85%;
   right: 11%;
 }
-
 .down i {
   font-size: 30px;
   color: #2c2c2c;
@@ -164,16 +139,11 @@ section {
   border-radius: 50px;
   padding: 12px 12px;
 }
-
-
 header.sticky {
   background: #fff;
   padding: 20px 10%;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
 }
-
-/* trending-section-css */
-
 .center-text h2 {
   color: #111;
   font-size: 28px;
@@ -181,32 +151,26 @@ header.sticky {
   text-align: center;
   margin-bottom: 30px;
 }
-
 .center-text span {
   color: #EE1C47;
 }
-
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   gap: 2rem;
 }
-
 .row {
   position: relative;
   transition: all .40s;
 }
-
 .row img {
   width: 100%;
   height: auto;
   transition: all .40s;
 }
-
 .row img:hover {
   transform: scale(0.9);
 }
-
 .product-text h5 {
   position: absolute;
   top: 13px;
@@ -219,39 +183,32 @@ header.sticky {
   padding: 3px 10px;
   border-radius: 2px;
 }
-
 .heart-icon {
   position: absolute;
   right: 0;
   font-size: 20px;
 }
-
 .heart-icon:hover {
   color: #EE1C47;
 }
-
 .ratting i {
   color: #FF8C00;
   font-size: 18px;
 }
-
 .price h4 {
   color: #111;
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 400;
 }
-
 .price p{
   color: #151515;
   font-size: 14px;
   font-weight: 600;
 }
-
 .client-reviews{
   background-color: #F3F4F6;
 }
-
 .reviews{
   text-align: center;
 }
@@ -268,14 +225,12 @@ header.sticky {
   text-align: center;
   font-weight: 700;
 }
-
 .reviews img {
   width: 100px;
   height: auto;
   border-radius: 50px;
   margin: 10px 0;
 }
-
 .reviews p {
   color: #707070;
   font-size: 16px;
@@ -283,7 +238,6 @@ header.sticky {
   line-height: 25px;
   margin-bottom: 10px;
 }
-
 .reviews h2 {
   font-size: 22px;
   color: #000;
@@ -291,7 +245,6 @@ header.sticky {
   text-transform: capitalize;
   margin-bottom: 2px;
 }
-
 .up-center-text h2 {
   text-align: center;
   color: #111;
@@ -305,28 +258,22 @@ header.sticky {
   height: auto;
   border-radius: 5px;
 }
-
-
 .update-cart {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   gap: 2rem;
 }
-
-
 .cart h5 {
   color: #636872;
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 500;
 }
-
 .cart h4 {
   color: #111;
   font-size: 18px;
   font-weight: 600;
 }
-
 .cart p {
   color: #707070;
   font-size: 15px;
@@ -334,34 +281,27 @@ header.sticky {
   line-height: 25px;
   margin-bottom: 12px;
 }
-
 .cart h6 {
   color: #151515;
   font-size: 14px;
   font-weight: 500;
 }
-
 .cart img {
   height: 60%;
   width: 100%;
-
 }
-
 .contact {
   background-color: #f3f4f6;
 }
-
 .contact-info {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, auto));
   gap: 3rem;
 }
-
 .first-info img {
   width: 140px;
   height: auto;
 }
-
 .contact-info h4 {
   color: #212529;
   font-size: 14px;
@@ -378,22 +318,18 @@ header.sticky {
   cursor: pointer;
   transition: all .42s;
 }
-
 .contact-info p:hover {
   color: #ee1c47;
 }
-
 .social-icon i {
   color: #565656;
   margin-right: 10px;
   font-size: 20px;
   transition: all .42s;
 }
-
 .social-icon i:hover{
   transform: scale(1.3);
 }
-
 .contact .email-paragraph {
   text-transform: lowercase;
 }
@@ -403,19 +339,16 @@ header.sticky {
   text-align: center;
   padding: 20px;
 }
-
 .end-text p{
   color: #111;
   text-transform: capitalize;
 }
-
 @media (max-width: 890px) {
   header {
     padding: 20px 3%;
     transition: .4s;
   }
 }
-
 @media (max-width: 630px) {
   .main-text h1 {
     font-size: 50px;
@@ -430,7 +363,6 @@ header.sticky {
     transition: .4s;
   }
 }
-
 @media (max-width: 750px) {
   .navmenu {
     position: absolute;
